@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts & Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts & CSS End -->
+
+    <!-- Plugins & JS -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="js/main.js"></script>
+    <!-- Plugins & JS End -->
+    <title>Denny Shu | Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <navbar id="main-nav">
+      <div class="container">
+        <div class="logo">
+          <a class="logo-initial" href="#">DS<span class="dot">.</span></a>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="#">Porfolio</a></li>
+          <li class="menu-item"><a href="#">About Me</a></li>
+        </ul>
+      </div>
+    </navbar>
+    <!-- Navbar -->
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="container">
+        <div class="profile-left">
+          <div class="profile-name">
+            <h1>
+              Denny
+              <br />
+              Shu<span class="dot">.</span>
+            </h1>
+          </div>
+          <div class="dash"></div>
+          <div class="profile-socials mb-40">
+            <a href="#">Facebook</a>| <a href="#">LinkedIn</a>
+            <br />
+          </div>
+          <div class="profile-cta">
+            <a class="btn" href="#">Contact Me</a>
+          </div>
+        </div>
+        <div class="profile-right">
+          <h3>Introduction</h3>
+          <h2>Junior Web Developer</h2>
+          <p class="mb-20">
+            I am currently holding a Resident Visa. I have been studying and
+            working as a Junior Full Stack Web Developer for 2 years back in my
+            country, then I chose to be a Chef in New Zealand and it has been 6
+            years now until I have reached the position as a Head Chef, I am
+            aware about New Zealand work ethic. I am improving my coding skill
+            everyday by creating a website template and thinking about moving
+            back to IT, following my real passion.
+          </p>
+          <a href="#" class="link-btn"
+            >Learn More <i class="fas fa-long-arrow-alt-down"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Profile End -->
+
+    <!-- Services -->
+    <section id="services" class="bg-light py-3 flex-center">
+      <div class="container">
+        <h3>Services</h3>
+        <h2>What I Am Great At</h2>
+        <p class="mb-40">
+          Please kindly invest your time to review my skill set below.
+        </p>
+        <div class="service-lists mb-20">
+          <div class="service-list-card">
+            <i class="fas fa-solid fa-pen-nib fa-4x mb-20"></i>
+            <h4>UI/UX Design</h4>
+            <p>129 projects</p>
+          </div>
+          <div class="service-list-card">
+            <i class="fas fa-solid fa-code fa-4x mb-20"></i>
+            <h4>Website</h4>
+            <p>420 projects</p>
+          </div>
+          <div class="service-list-card">
+            <i class="fas fa-solid fa-book fa-4x mb-20"></i>
+            <h4>Web Research</h4>
+            <p>550 projects</p>
+          </div>
+          <div class="service-list-card">
+            <i class="fas fa-solid fa-signal fa-4x mb-20"></i>
+            <h4>SEO</h4>
+            <p>331 projects</p>
+          </div>
+        </div>
+        <div class="service-lists-counter">
+          <div class="service-list-counter-item">
+            <h4><span id="countYear">0</span>+</h4>
+            <p>Years of Experience</p>
+          </div>
+          <div class="service-list-counter-item">
+            <h4><span id="countCustomers">0</span>+</h4>
+            <p>Satisfied Customers</p>
+          </div>
+          <div class="service-list-counter-item">
+            <h4><span id="countCountDesignItems">0</span>+</h4>
+            <p>Design Items</p>
+          </div>
+          <div class="service-list-counter-item">
+            <h4><span id="countClients">0</span>+</h4>
+            <p>Client Served</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="bg-dark py-3 flex-center">
+      <div class="container">
+        <h3>Portfolio</h3>
+        <h2>My Work Collection</h2>
+        <p class="mb-40">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          animi unde nobis? Deserunt odio pariatur provident ipsa soluta
+          cupiditate doloribus magni laborum, officiis non quasi earum animi
+          aspernatur, molestias fugiat!
+        </p>
+        <div class="portfolio-menu mb-40">
+          <button href="#" class="active" data-filter="*">All</button>
+          <button href="#" data-filter=".ui">UI/UX Design</button>
+          <button href="#" data-filter=".web-design">Web Design</button>
+          <button href="#" data-filter=".web-research">Web Research</button>
+          <button href="#" data-filter=".seo">SEO</button>
+        </div>
+
+        <div class="portfolio-list">
+          <div class="portfolio-sizer"></div>
+          <div class="portfolio-item ui">
+            <div class="portfolio-item-wrapper">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"
+              />
+              <div class="overlay">
+                <a
+                  href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"
+                >
+                  <img class="m-auto" src="img/icon.png" alt="plus icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item web-design">
+            <div class="portfolio-item-wrapper">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"
+              />
+              <div class="overlay">
+                <a
+                  href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg"
+                >
+                  <img class="m-auto" src="img/icon.png" alt="plus icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item web-research">
+            <div class="portfolio-item-wrapper">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"
+              />
+              <div class="overlay">
+                <a
+                  href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"
+                >
+                  <img class="m-auto" src="img/icon.png" alt="plus icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item web-research">
+            <div class="portfolio-item-wrapper">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"
+              />
+              <div class="overlay">
+                <a
+                  href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"
+                >
+                  <img class="m-auto" src="img/icon.png" alt="plus icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item seo">
+            <div class="portfolio-item-wrapper">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"
+              />
+              <div class="overlay">
+                <a
+                  href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"
+                >
+                  <img class="m-auto" src="img/icon.png" alt="plus icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio End -->
+
+    <!-- Latest News -->
+    <section id="latest-news" class="bg-light py-3">
+      <div class="container">
+        <div class="text-center">
+          <h3>Latest News</h3>
+          <h2>My Latest Articles</h2>
+          <p class="mb-40">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            animi unde nobis? Deserunt odio pariatur provident ipsa soluta
+            cupiditate doloribus magni laborum, officiis non quasi earum animi
+            aspernatur, molestias fugiat!
+          </p>
+        </div>
+
+        <div class="latest-news-blogs">
+          <div class="single-blog">
+            <div class="blog-img">
+              <img src="img/blog01.jpg" alt="blog 01" />
+            </div>
+            <div class="blog-meta">
+              <div class="date">08 Apr 2023</div>
+            </div>
+            <div class="blog-details p-2">
+              <div class="blog-title">
+                <a href="#"><h2>Lorem ipsum dolor sit amet.</h2></a>
+              </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+                expedita sunt officiis. Sint fugiat ullam ipsum atque numquam
+                itaque perferendis. Vitae, veritatis enim exercitationem dolor
+                labore quaerat reiciendis quidem soluta?...
+              </p>
+              <div class="blog-button mt-20">
+                <a href="#" class="link-btn"
+                  >Read More <i class="fas fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="single-blog">
+            <div class="blog-img">
+              <img src="img/blog02.jpg" alt="blog 01" />
+            </div>
+            <div class="blog-meta">
+              <div class="date">01 Apr 2023</div>
+            </div>
+            <div class="blog-details p-2">
+              <div class="blog-title">
+                <a href="#"><h2>Lorem ipsum dolor sit amet.</h2></a>
+              </div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+                expedita sunt officiis. Sint fugiat ullam ipsum atque numquam
+                itaque perferendis. Vitae, veritatis enim exercitationem dolor
+                labore quaerat reiciendis quidem soluta?...
+              </p>
+              <div class="blog-button mt-20">
+                <a href="#" class="link-btn"
+                  >Read More <i class="fas fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="list-blog">
+            <div class="blog-item">
+              <div class="blog-meta">
+                <div class="date">25 Mar 2023</div>
+              </div>
+              <div class="blog-small-img">
+                <img src="img/blog03.jpg" alt="blog 01" />
+              </div>
+              <div class="blog-small-description p-1">
+                <a href="#">
+                  <h2>Lorem ipsum dolor sit amet...</h2>
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo esse, molestias in dolores at et.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="list-blog">
+            <div class="blog-item">
+              <div class="blog-meta">
+                <div class="date">15 Mar 2023</div>
+              </div>
+              <div class="blog-small-img">
+                <img src="img/blog04.jpg" alt="blog 01" />
+              </div>
+              <div class="blog-small-description p-1">
+                <a href="#">
+                  <h2>Lorem ipsum dolor sit amet...</h2>
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo esse, molestias in dolores at et.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="list-blog">
+            <div class="blog-item">
+              <div class="blog-meta">
+                <div class="date">10 Mar 2023</div>
+              </div>
+              <div class="blog-small-img">
+                <img src="img/blog05.jpg" alt="blog 01" />
+              </div>
+              <div class="blog-small-description p-1">
+                <a href="#">
+                  <h2>Lorem ipsum dolor sit amet...</h2>
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo esse, molestias in dolores at et.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest News End -->
+
+    <!-- Contact Me -->
+    <section id="contact-me" class="bg-dark py-3 flex-center">
+      <div class="container">
+        <div>
+          <h3>Contact Me</h3>
+          <h2>Ways To Contact Me</h2>
+          <p class="mb-40">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            animi unde nobis? Deserunt odio pariatur provident ipsa soluta
+            cupiditate doloribus magni laborum, officiis non quasi earum animi
+            aspernatur, molestias fugiat!
+          </p>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fas fa-regular fa-envelope fa-2x"></i>
+            <p class="text-primary">denny.shu98@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-regular fa-phone fa-2x"></i>
+            <p class="text-primary">+64 2912 11695</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-facebook fa-2x"></i>
+            <p class="text-primary">denny_shu</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-twitter fa-2x"></i>
+            <p class="text-primary">@denny_shu</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram fa-2x"></i>
+            <p class="text-primary">@denny_shu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me End -->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark py-2">
+      <div class="copyright-text text-center">
+        <p>
+          <i class="fas fa-copyright"></i>
+          Copyright - Denny Shu | All Rights Reserved.
+        </p>
+      </div>
+      <div class="back-to-top">
+        <a href="#">
+          <i class="fas fa-angle-up fa-1x"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script
+      src="https://kit.fontawesome.com/ce20e8218e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
